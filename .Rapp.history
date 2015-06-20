@@ -1,0 +1,66 @@
+install.packages("KernSmooth")
+library("KernSmooth")
+install.packages("swirl")
+library(swirl)
+swirl()
+5+7
+x <- 5 + 7
+x
+y <- x - 3
+y
+c(1.1,9,3.14)
+z<-c(1.1,9,3.14)
+c()
+?c
+z
+c(z,555)
+c(z,555,z)
+z*2+100
+my_sqrt <- sqrt(z-1)
+my_sqrt
+my_div <- z/my_sqrt
+my_div
+c(1,2,3,4)+c(0,10)
+c(1,2,3,4)+c(0,10,100)
+z*2+1000
+ls
+ls()
+my
+my..
+my_div
+library(datasets)
+data(iris)
+?iris
+Speal.Length
+Sepal.Length
+Sepal
+iris
+head(iris)
+mean(iris$Spela.Length)
+mean(iris$Sepal.Length)
+mean(iris[iris$Species == "virginica"]$Sepal.Length)
+mean(iris$Sepal.Length[iris$Species == "virginica"])
+tapply(iris$Sepal.Length, iris$Species, mean)
+colMeans(iris)
+iris
+apply(iris, 1, mean)
+rowMeans(iris[, 1:4])
+apply(iris[, 1:4], 2, mean)
+library(datasets)#
+data(mtcars)
+head(mtcars)
+tapply(mtcars$cyl, mtcars$mpg, mean)
+sapply(mtcars, cyl, mean)
+with(mtcars, tapply(mpg, cyl, mean))
+with(mtcars, tapply(hp, cyl, mean))
+x <- with(mtcars, tapply(hp, cyl, mean))
+x
+x[8]
+x[3]
+x[3]-x[1]
+debug(ls)
+ls
+debug(ls)
+ls
+apply(iris[, 1:4], 2, mean)
+with(mtcars, tapply(mpg, cyl, mean))
